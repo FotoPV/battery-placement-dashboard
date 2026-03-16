@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-aqua: #00EAD3;
+  --color-orange: #F36710;
+  --color-ash: #808285;
+  --color-black: #000000;
+  --color-surface: #0d0d0d;
+  --color-border: #1f1f1f;
+}
+
+html, body {
+  background-color: #000000;
+  color: #ffffff;
+  font-family: 'GeneralSans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0d0d0d;
+}
+::-webkit-scrollbar-thumb {
+  background: #333;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #00EAD3;
+}
